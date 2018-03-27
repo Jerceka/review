@@ -1,0 +1,26 @@
+body{
+  background:
+}
+* {
+   outline: 1px solid red !important;
+}
+
+The Box Revisited
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+flix
+ display: flex;
+  flex-direction: row |
+   row-reverse | column | column-reverse;
+   https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    flex-wrap: nowrap | wrap | wrap-reverse;
+    flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+     justify-content: flex-start | flex-end | center |
+      space-between | space-around | space-evenly;
+      align-items: flex-start | flex-end | center |
+       baseline | stretch;
+      
