@@ -23,4 +23,8 @@ flix
       space-between | space-around | space-evenly;
       align-items: flex-start | flex-end | center |
        baseline | stretch;
-      
+       .make{
+       height : 50px;
+           width : 50px;
+           border-radius: 25px;
+         }
